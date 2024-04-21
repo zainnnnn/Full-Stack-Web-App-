@@ -17,4 +17,4 @@ staticfiles/
 
 # Ignore virtual environment
 venv/
-.env
+env
