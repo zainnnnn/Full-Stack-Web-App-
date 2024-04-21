@@ -20,3 +20,4 @@ class NoteSerializer(serializers.ModelSerializer):
         model = Note
         fields = "__all__"
         extra_kwargs = {"author": {"read_only": True}}
+ 
